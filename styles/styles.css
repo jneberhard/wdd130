@@ -50,9 +50,9 @@ aside {
 }
 
 aside h2 {
-    position: relative;
-    top: 60px;
-    left: 0%;
+    position: absolute;
+    top: 15px;
+    left: 150px;
 }
 
 
