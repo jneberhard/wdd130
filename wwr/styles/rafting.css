@@ -30,19 +30,18 @@ h1 {
 h2 {
     color: var(--main-brown);
     font-family: "Noto Serif", Times, serif;
-
 }
 
 p {
     padding: 0;
-    font-family: Inter, Geneva, sans-serif;
+    font-family: 'Inter', Geneva, sans-serif;
 }
 
 
 
 main {
 	margin: 2rem auto;
-	font-family: Inter, Arial, sans-serif;
+	font-family: 'Inter', Arial, sans-serif;
 }
 
 img {
