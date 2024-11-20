@@ -67,7 +67,7 @@ img {
     top: 200px;
     margin: 100px;
     padding: 5px;
-    border: var(--border);
+    border: 10px;
     background-color:var(--background-color-opacity);
     color: black;
 }
