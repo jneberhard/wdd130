@@ -159,6 +159,10 @@ main {
     display: grid;
     justify-content: center;
 }
+.adventure p {
+    padding: 0px 30px;
+    text-align: center;
+}
 .adventure figure {
     display: flex;
     flex-flow: column;
