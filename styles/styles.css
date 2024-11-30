@@ -48,7 +48,7 @@ h1 {
 }
 .grid {
     display: grid;
-    align-items: center; 
+ /*   align-items: center; */
 }
 
 main img {
@@ -61,6 +61,7 @@ main img {
 
 p {
     padding: var(--padding);
+
 }
 
 main {
@@ -75,6 +76,10 @@ aside {
     grid-column: 1;
     grid-row: 1;
     text-align: center;
+}
+
+aside p {
+    text-align: left;
 }
 
 aside h2 {
