@@ -7,37 +7,48 @@
     <title>Jim Eberhard | poll-form</title>
     <meta name="description" content ="Poll form activity">
     <meta name="author" content="Jim Eberhard">
-
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <header>
-        <h1> Jim Eberhard - WDD130 - Poll form page</h1>        
+        <h1> WDD | HTML Form - User Poll</h1>  <br>      
     </header>
     <main>
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname"><br>
-                <label for="useremail">Email</label><br>
-                <input type="text" id="useremail" name="useremail"><br>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>  
+                <div class="form-item column2">
+                    <label for="useremail">Email: </label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item column1">               
                 <label for="browser">What is your favorite browser?</label>
                 <select name="broswer" id="browser">
                     <option value="chrome">Chrome</option>
                     <option value="edge">Edge</option>
                     <option value="firefox">Firefox</option>
                     <option value="duck-duck-go">Duck Duck Go</option>
-                </select><br>
+                </select>
+                </div>  
+                <div class="form-item column1">              
                 <label for="pet">Do you have a household pet? </label>
-                <input type="checkbox" id="pet" name="pet" value="pet"><br>
-                <label for="places">List the places you have lived:</label>
-                <textarea id="places" name="places" rows="8" placeholder="Put your comments here"></textarea><br>
-                
+                <input type="checkbox" id="pet" name="pet" value="pet">
+                </div> <br>
+                <label for="feedback">List the places you have lived:     </label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Examples:  Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
             </fieldset>
             <button type="submit">Submit Poll</button>
         </form>
