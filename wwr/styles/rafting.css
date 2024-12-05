@@ -389,3 +389,9 @@ button:hover {
 .radio1 {
     font-size: 1rem;  
 }
+
+.map {
+    width: "200px";
+    height: "150px" ;
+    border: 0;
+}
