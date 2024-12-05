@@ -382,14 +382,21 @@ button:hover {
 }
 
 /* The container for radio buttons*/
-.container {
+.general {
     display: block;
   }
 
-.radio1 {
+.container {
     font-size: 1rem;  
 }
 
+.reservation {
+    display: block;
+}
+
+.website {
+    display: block;
+}
 .map {
     width: "200px";
     height: "150px" ;
