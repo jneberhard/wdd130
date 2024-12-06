@@ -260,8 +260,12 @@ footer {
     text-align: center;
     max-width: 1200px;
     padding: 10px;
-    
+   
 }
+footer a {
+    color: black;
+}
+
 footer p {
     grid-column-start: 2;
     grid-column-end: 5;
@@ -310,7 +314,7 @@ footer p {
 
 /* The contact us form */
 
-  form {
+form {
     width: 900px;
     margin: 0 auto;
 
@@ -330,7 +334,7 @@ fieldset {
 
 legend {
     padding: 5px;
-    color:blueviolet;
+    color:black;
     font-size: 1.4rem;
 }
 
