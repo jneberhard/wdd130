@@ -362,11 +362,7 @@ textarea {
     font-size: 1rem;
 }
 
-input[type="checkbox"] {
-    width: 22px; 
-    height: 22px;
-    vertical-align: bottom;
-}
+
 
 button {
     margin: 10px;
@@ -382,18 +378,21 @@ button:hover {
 }
 
 /* The container for radio buttons*/
-.general {
+
+input[type="radio"] {
+    width: 15px; 
+    height: 15px;
+    margin-left: 100px; 
+}
+
+input[type="radio"] + label:after {
+    content: '';
     display: block;
   }
 
-.container {
-    font-size: 1rem;  
-}
-
-
 .map {
-    display: grid;
-    width: 150px;
+    display: inline-block;
+    width: 70%;
     height: auto;
     border: 0;
 }
