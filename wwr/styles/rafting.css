@@ -297,15 +297,16 @@ footer p {
     top: 100%;
     left: 50%;
     margin-left: -60px;
-    background-color: black;
-    color: #fff;
+    background-color: var(--main-brown);
+    color: white;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 5px 5px; 
   
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
+    padding: 2px;
   }
   
   .tooltip:hover .tooltiptext {
@@ -394,9 +395,29 @@ input[type="radio"] + label:after {
     display: block;
   }
 
+
 .map {
     display: inline-block;
     width: 70%;
     height: auto;
     border: 0;
 }
+.column1 {
+    display: flex;
+    margin: 0.5rem 0;
+    padding: 8px, 0;
+    align-items: start;
+}
+
+.check {
+    width: unset;
+    margin: 0 0.5em 0 0;
+
+}
+
+input[type="checkbox"] {
+    padding: 1px;
+    margin-left: -180px; 
+    transform: scale(2);       
+}
+
